@@ -1,0 +1,47 @@
+
+/* cbs-admin-stylesheet.css
+ * 
+ * CSS style data used on the admin page
+ * 
+ * PHP version 5
+ * 
+ * @author      Rane Wallin
+ * @copyright   SwiftWP
+ * @license     GPLv2
+ * @version     0.6.0
+ * @link        http://swiftwp.com/swift-callouts-swiftwp-wordpress-callout-plugin/
+ * 
+ */
+
+body {
+    background-color: #FFFFFF;
+    height: 1100px;
+}
+
+h1.ecbsAdmin {
+    text-align: center;
+}
+#ecbs-edit-area {
+    background-color: #E6E6E6;
+    width: 75%;
+    padding: 10px;
+    height: 650px;
+}
+#ecbs-options-form {
+     border: 3px dotted; 
+    width: 40%; 
+    float: left;
+    height: 650px;
+}
+
+#ecbs-textbox-area {
+    
+    border: 3px dotted; 
+    margin-left: 40%;
+    height: 650px;
+}
+
+h2#ecbs-updated {
+    color: #FF0000;
+    text-align:center;
+}
